@@ -1,0 +1,24 @@
+.todo__form{
+    margin: 2rem 0;
+}
+.todo__form-wrapper {
+    /* margin: 2rem auto; */
+    padding: 0.5rem 2rem;
+}
+.todo__form-wrapper label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.todo__form-wrapper input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+}
+.todo__form-wrapper input:focus {
+    outline: none;
+    border-color: #4f005f;
+}
